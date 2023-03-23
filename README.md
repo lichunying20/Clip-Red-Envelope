@@ -94,3 +94,6 @@ for value, index in zip(values, indices):
 
 ### 最后结果
 ![image](https://user-images.githubusercontent.com/128216499/227189841-bf4195cd-ae49-4ea1-a70d-ab1dec57e4de.png)
+
+## 总结
+当list=('','envelope','China')，即类别中存在不对照片进行描述的语句时，最后得到空白的概率可能是最大的。当list = ('red','envelope','China','Red Envelope')，即类别中存在描述照片相对一致的语句时，最后相对一致的语句的概率可能是最大的。
