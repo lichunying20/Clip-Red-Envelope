@@ -7,6 +7,14 @@
 ## 所用图片
 ![红包1](https://user-images.githubusercontent.com/128216499/227192980-ffeab773-c45e-4ddb-8960-b88a1d0703c2.jpeg)
 
+## 环境配置
+PyTorch要安装1.7.1以上的版本
+``` bash
+$ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+$ pip install ftfy regex tqdm
+$ pip install git+https://github.com/openai/CLIP.git
+```
+
 ## clip代码及最后结果
 ### 当classes = ['a red packet', 'a dog', 'a cat']时
 ```python
